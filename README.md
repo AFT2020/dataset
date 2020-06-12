@@ -1,7 +1,7 @@
 # dataset
 Smart contract vulnerability dataset 
 
-This repository contains a smart contract vulnerability dataset that is used in machine learning experiments.
+This repository contains a smart contract vulnerability dataset that is used in machine learning experiments. The dataset can be opened and edited via SQLite database managers such as SQLiteStudio (https://sqlitestudio.pl/).
 
 This dataset contains 542 smart contracts that we extracted by crawling coinmarketcap.com and etherscan.io websites. We extract the top 542 token contracts with the most market cap from the coinmarketcap website. From coinmarketcap.com we extrated etherscan.io links for these token contracts which enabled us to extract solidity sources codes of these contracts.
 
